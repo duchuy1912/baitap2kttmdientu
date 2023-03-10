@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.tiemkiem{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    background-color: rgb(55, 73, 110);
+    height: 45px;
+}
+.tiemkiem__img img{
+    width: 30px;
+    margin: 8px;
+}
+.tiemkiem__img{
+    display: flex;
+    margin-left: 20px;
+    padding: 5px 0;
+}
+.tiemkiem__inputtext{
+    display: flex;
+}
+.tiemkiem__inputtext input{
+    margin: 5px;
+}
+.tiemkiem__inputtext div{
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    background-color: #868484;
+}
+.menu{
+    /* padding: 20px 20px; */
+    background-color: rgb(1, 107, 255);
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    border-right: 1px solid white;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+
+.anhbia img{
+    width: 100%;
+}
+
+
+.noidung{
+    display: flex;
+    padding: 40px;
+}
+.noidung__quancao{
+    width: 20%;
+}
+.noidung__quancao img{
+    width: 100%;
+}
+.quancao__title{
+    color: rgb(1, 107, 255);
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.quancao__danhsach ul li {
+    list-style: none;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0 10px 0;
+    width: 90%;
+    float: right;
+}
+.quancao__danhsach ul li a{
+    color: black;
+}
+.noidung__danhsach{
+    width: 70%;
+    /* padding-left: 30px; */
+}
+.danhsach__title{
+    font-size: 30px;
+    display: flex;
+}
+.danhsach__title span{
+    width: 600px;
+    border-bottom: 3px solid black;
+}
+.danhsach__sanpham{
+    display: flex;
+}
+.sanpham__one{
+
+}
+.sanpham__one p{ 
+    padding: 20px;
+    color: rgb(1, 107, 255);
+    font-size: 20px;
+}
+.sanpham__one img{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+.one__sud{
+
+}
+.sanpham__one{
+
+}
+.one__sud{
+
+}
+.phancuoi{
+    text-align: center;
+    background-color: #ccc;
+    padding: 20px 0;
+    border-top: 2px solid rgb(1, 107, 255);
+    font-weight: bold;
+}
+.phancuoi{
+
+}
